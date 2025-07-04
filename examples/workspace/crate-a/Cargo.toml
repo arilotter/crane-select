@@ -1,0 +1,9 @@
+[package]
+name = "crate-a"
+version = "0.1.0"
+edition = "2021"
+description = "Example crate A"
+
+[dependencies]
+crate-b = { path = "../crate-b" }
+serde = { workspace = true }

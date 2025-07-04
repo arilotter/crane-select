@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "crate-a",
+    "crate-b", 
+    "crate-c",
+    "crate-d",
+    "app"
+]
+
+[workspace.dependencies]
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "1.0", features = ["full"] }

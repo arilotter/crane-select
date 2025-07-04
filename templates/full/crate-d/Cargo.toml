@@ -1,0 +1,8 @@
+[package]
+name = "crate-d"
+version = "0.1.0"
+edition = "2021"
+description = "Example crate D (independent)"
+
+[dependencies]
+serde = { workspace = true }

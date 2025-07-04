@@ -1,0 +1,10 @@
+[package]
+name = "app"
+version = "0.1.0"
+edition = "2021"
+description = "Example application"
+
+[dependencies]
+crate-a = { path = "../crate-a" }
+crate-d = { path = "../crate-d" }
+tokio = { workspace = true }

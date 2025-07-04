@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "my-app",
+    "my-lib"
+]
+
+[workspace.dependencies]
+serde = { version = "1.0", features = ["derive"] }
